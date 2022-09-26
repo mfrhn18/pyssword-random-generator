@@ -1,13 +1,6 @@
 import datetime
 import random
 
-# Create dictionary
-userList = {
-    "username"  : "john.doe",
-    "gender"    : "Male",
-    "join_year" : 2022
-}
-
 # Create module
 def createCredentials(usernameInput, pwdLength):
     src     = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*?~" #random strings for pwd generator
